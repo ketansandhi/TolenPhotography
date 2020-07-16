@@ -5,6 +5,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  .navbar-nav a{
+
      margin-right: 2rem;
     font-size: 1.3rem;
 }
@@ -54,7 +55,7 @@ body{
 /* Gallery */
 img{ max-width:100%;}
 
-.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
 .gallery_box{ padding:0;display: flow-root;}
 
 .gallery_box li:hover img {
